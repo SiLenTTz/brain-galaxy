@@ -1,0 +1,8 @@
+#!/bin/bash
+# pre-push — check + tests müssen grün sein, sonst Push blockiert.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+echo "pre-push: npm run check"
+npm run check
+echo "pre-push: npm test"
+npm test

@@ -1,0 +1,44 @@
+{
+  "name": "brain-galaxy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiLenTTz/brain-galaxy.git"
+  },
+  "bugs": "https://github.com/SiLenTTz/brain-galaxy/issues",
+  "homepage": "https://github.com/SiLenTTz/brain-galaxy#readme",
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@react-three/postprocessing": "^3.1.1",
+    "@types/three": "^0.185.4",
+    "d3-force-3d": "^3.0.6",
+    "qrcode-generator": "^2.0.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.185.0",
+    "ws": "^8.21.3",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^3.2.4"
+  }
+}
