@@ -5,6 +5,8 @@ markdown notes into a navigable 3D cosmos: notes become stars, links become
 filaments, topics gather into spiral galaxies — and everything stays **on
 your machine**. No cloud, no accounts, no telemetry.
 
+![Brain Galaxy — a vault as a 3D universe](docs/screenshot.png)
+
 - **Universe layout** — every topic cluster forms its own spiral galaxy
   (bright core = most important notes, arms = related notes), galaxies float
   in shared space so you *see* what belongs together
